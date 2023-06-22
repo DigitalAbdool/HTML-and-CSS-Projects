@@ -1,0 +1,449 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/*=================
+	Utiliities
+	=============*/
+
+body{
+	background-color: #fff;
+}
+
+.btn{
+
+}
+
+/*===============
+	Nav_bar
+	===========*/
+
+.Navbar_wrapper{
+	display: flex;
+	border: 1px solid white;
+	background-color: snow;
+	padding: 10px;
+	
+
+}
+
+.Logo{
+	flex: 1;
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 1.2rem;
+	
+}
+
+.Navbar_menu{
+	flex: 2;
+}
+
+
+ul li{
+	display: inline;
+	padding: 3px; 
+}
+
+
+ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+}
+
+.Hire_me{
+	border-radius: .2rem;
+	padding: 0 1.2rem 0 1.2rem;
+	color: white;
+	background-color: black;
+}
+
+/*===============
+	Hero_section
+	===========*/
+.Container{
+	
+	margin: 0 auto;
+	padding: 1.5rem;	
+	background-color: whitesmoke;
+	
+}
+.Hero_content{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+.Hero_txt{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.Hero_img{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Hero_img img{
+	width: 100%;
+	height: 100%;
+}
+
+.Hero_txt h2{
+	font-family: 'Economica', sans-serif;
+	font-size: 2.3rem;
+	font-weight: 700px;
+	padding-bottom: 5px;
+}
+
+.Hero_txt h2 strong{
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 3.1rem;
+	font-style: bold;
+}
+
+.Hero_txt h3{
+	font-family: 'Economica', sans-serif;
+	font-size: 2.3rem;
+	font-weight: 700px;
+	padding-bottom: 5px;
+}
+
+.Hero_txt p{
+	padding-bottom: 5px;
+}
+
+.Hero_txt button{
+	width: 30%;
+	padding: 10px;
+	border-radius: .5rem;
+	color: white;
+	background-color: black;
+}
+
+/*==============
+	Figures
+	============*/
+
+.Figures_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px;
+	
+
+}
+.Figures_wrapper p{
+	font-size: 2rem;
+	font-style: bold;
+}
+.Figures_wrapper em{
+	display: block;
+	font-size: 1rem;
+	font-style: italic;
+}
+
+.Fig{
+	margin: 0 auto;
+}
+
+/*================
+	About_section
+	============*/
+
+
+#About{
+	margin: 0 auto;
+	padding: 1.5rem;	
+	background-color: whitesmoke;
+	
+}
+
+.About_menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1.5rem;
+
+}
+
+.About_menu p a{
+	text-decoration: none;
+	color: black;
+	padding: 0 2.2rem 0 2.2rem;
+}
+
+.About_menu p a:hover{
+	color: white;
+	background-color: black;
+}
+
+.About_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.About_img{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.About_txt{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.About_img img{
+	width: 70%;
+	height: 90%;
+}
+
+.About_txt h2{
+	font-family: 'Economica', sans-serif;
+	font-size: 2.3rem;
+	font-weight: 700px;
+	padding-bottom: 5px;
+
+}
+.About_txt p {
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+}
+
+.About_txt button{
+	width: 30%;
+	padding: 10px;
+	border-radius: .5rem;
+	color: white;
+	background-color: black;
+}
+/*================
+	Services
+	=============*/
+
+#Services{
+	margin: 0 auto;
+	padding: 1.5rem;	
+}
+
+.Services_txt h3{
+	text-align: center;
+}
+
+.Services_txt h2{
+	text-align: center;
+}
+
+.Services_txt p{
+	text-align: center;
+}
+
+.Services_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.6rem;
+
+}
+
+.Services_items{
+	width: 22%;
+	padding: 10px;
+	border: 1px solid white;
+	background-color: whitesmoke;
+	text-align: center;
+	margin-right: 5px;
+
+}
+
+.Services_items img{
+	text-align: center;
+}
+
+
+/*=============
+	Portfolio
+	==========*/
+
+#Portfolio{
+	margin: 0 auto;
+	padding: 1.5rem;
+}
+
+#Portfolio h3{
+	text-align: center;
+}
+
+#Portfolio h2{
+	text-align: center;
+}
+
+.Portfolio_menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.3rem;
+	margin-bottom: 1.3rem;
+}
+.Portfolio_menu li a{
+	padding: 0 1rem 0 1rem;
+}
+
+
+.Portfolio_menu li a:hover{
+	color: white;
+	background-color: black;
+}
+
+
+
+
+/*================
+	Testimonials
+	=============*/
+
+.Testimonials_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.T_heading {
+	font-family: 'Economica',sans-serif;
+	font-size: 2.3rem;
+	text-align: center;
+
+}
+
+.slideshow{
+	margin: 25px;
+	width: 25%;
+}
+
+.slideshow img{
+	border-radius: 40%;
+}
+
+
+
+
+
+
+/*==============
+	Action
+	============*/
+
+#Action{
+	margin: 0 auto;
+	padding: 1.5rem;
+}
+
+.Action_wrapper{
+	display: flex;
+	background-color: whitesmoke;
+	padding: 10px;
+}
+
+.Action_txt{
+	flex: 5;
+	padding-bottom: 15px;
+}
+
+.Action_btn{
+	flex: 1;
+}
+
+.Action_txt h2{
+	padding-bottom: 1rem;
+}
+.Action_btn button{
+	width: 90%;
+	padding: 10px;
+	border-radius: .5rem;
+	color: white;
+	background-color: black;
+}
+
+/*==============
+	Contact
+	===========*/
+
+#Contact{
+	margin: 0 auto;
+	padding: 1.5rem;
+	background-color: whitesmoke;
+}
+
+#Contact h2{
+	text-align: center;
+	margin: 1.4rem;
+	text-transform: uppercase;
+}
+
+.Contact_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: : center;
+
+}
+
+.Contact_txt{
+	flex: 1;
+
+}
+.Contact_txt p{
+	padding-bottom:  20px;
+}
+.Contact_txt i{
+	padding: 30px;
+}
+
+.Contact_form{
+	flex: 1;
+	margin-left: 2.2rem;
+	margin-bottom: 1.5rem;
+}
+
+input[type="text"],input[type="email"], textarea, button{
+	width: 100%;
+	padding: 15px;
+	border-radius: 
+}
+
+.Contact_form button{
+	color: white;
+	background-color: black;
+}
+
+
+/*===============
+	footer
+	=============*/
+
+.Footer_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 15px;
+}
+
+.copy{
+	flex: 1;
+}
+
+.Footer_sm{
+	flex-flow: 1;
+}
