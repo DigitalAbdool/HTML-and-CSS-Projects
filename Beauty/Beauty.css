@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*=================
+	Hero_Section
+	==============*/
+
+.Hero_section{
+	border: 1px solid #f6f6f6;
+	background-color: indigo;
+	padding: 65px;
+	width: 100%;
+	text-align: center;
+
+}
+
+.Hero_section > p{
+	color: white;
+	
+}
+
+h1{
+	color: #f6f6f6;
+	margin-bottom: 25px;
+	
+}
+
+em{
+	display: block;
+	font-size: 30px;
+}
+
+
+/*===================
+	General_section
+	================*/
+.General_Section{
+	border: 1px solid white;
+	background-color: white;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	overflow: auto;
+}
+
+
+h2{
+	margin-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.Data_Block{
+	display: inline;
+	float: left;
+	width: 30%;
+	overflow: auto;
+	border: 1px solid white;
+	background-color: #f6f6f6;
+	padding: 10px;
+	margin-top: 1.5rem;
+	margin-bottom: 3rem;
+	margin-right: 25px;
+}
+
+ a{
+ 	text-decoration: none;
+ 	color: red;
+ 	padding: 10px;
+ 	display: inline;
+ }
+
+ a:hover{
+ 	color: seagreen;
+ }
+
+
+/*=================
+	Benefit_Section
+	===============*/
+
+.Benefit_Section{
+	background-color: #f6f6f6;
+	border: 1px solid white;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 2.5rem;
+
+}
+ .button{
+	padding: 10px;
+	width: 35%;
+	margin: 30px;
+	background-color: firebrick;
+	color: snow;
+	border-radius: 100px;
+	text-transform: uppercase;
+	border-width: 0;
+}
+
+/*==============
+	footer
+	===========*/
+
+footer{
+	text-align: center;
+	color: snow;
+	border: 1px solid white;
+	background-color: midnightblue;
+	padding: 20px;
+}
